@@ -147,6 +147,7 @@ td {
   width: calc(100%/9);
 }
  
+/* delete hover table */
 .subject:hover {
   background-color: #EC5653;
   color: #fff;
@@ -154,25 +155,8 @@ td {
   transform: translate3d(6px, -6px, 0);
   transition-delay: 0.1s;
   transition-duration: 0.4s;
-  transition-property: all;
-  transition-timing-function: line;
-}
-
-
-/* cuon chuot */
-.scroller {
-  position: fixed;
-  bottom: 0;
-  background-color: #fff;
-  padding: 5px;
-}
-
-.scroller marquee {
-  text-align: center;
-  color: #7375c1;
-  text-transform: uppercase;
-  font-size: 16px;
-  font-weight: bold;
+  /* transition-property: all; */
+  transition-timing-function: linear;
 }
 
 .btn-group {
